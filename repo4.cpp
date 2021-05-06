@@ -31,7 +31,7 @@ double fact(double a) {
 double McLaughlin(double x, double n) {
     double ans = 0;
     for (double i = 0.0; i <= n - 1.0; i += 1.0) {
-        ans = ans + pow(x,i) / fact(n);
+        ans = ans + pow(x,i) / fact(i);
     }
     return ans;
 }
