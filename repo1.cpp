@@ -9,7 +9,7 @@ int main() {
         x_3 = x[i] / 3.0;
         y = x_3 * 3.0;
         cout << x[i] << " / 3 = " << setprecision(8) << x_3 << '\t';
-        cout << x[i] << " * 3 = " << setprecision(8) << y << '\t';
+        cout << x_3 << " * 3 = " << setprecision(8) << y << '\t';
         if (x[i] == y) {
             cout << "true" << endl;
         }
