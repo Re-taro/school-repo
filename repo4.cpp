@@ -21,7 +21,7 @@ int main() {
 double fact(double a) {
     double b = 1;
 
-    while (a > 1){
+    while (a > 1) {
         b = b * a;
         a--;
     }
